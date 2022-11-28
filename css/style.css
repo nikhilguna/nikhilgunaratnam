@@ -41,6 +41,7 @@ html{
 	padding: 0 100px;
 	text-align: center;
   } */
+
   
   h1{
 	line-height: 170px;
@@ -145,12 +146,13 @@ html{
   nav a:hover{
 	text-decoration:underline;
   } */
-  
-  
-  
-  
-  
-  
+
+  .bigTitle {
+	text-align: left;
+	color: black;
+	font-family: 'Monoco', 'Courier New', Courier, monospace;
+  }
+
   
   
   /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
