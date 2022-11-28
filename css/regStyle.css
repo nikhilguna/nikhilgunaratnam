@@ -1,0 +1,409 @@
+html{
+	scroll-behavior: smooth;
+  }
+
+  header, nav, main, footer{
+	margin: 20px 0;
+}
+
+nav li{
+	display:inline;
+    text-align: center;
+    padding:7.15%;
+  }
+  
+  nav a{
+	color: black;
+  }
+
+
+.home {
+    font-size: 23px;
+}
+
+
+  a.hvr-growIcons {
+    color: blue;
+  }
+
+  div.img {
+    size: 10px;
+  }
+
+  div.col {
+    padding-left :440px;
+  }
+  
+ 
+  div.row {
+    margin: 6%;
+  }
+  /* If the text has multiple lines, add the following: */
+ 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .gridImg {
+      display:grid;
+      grid-template-columns: 30px 30px;
+      grid-column-gap: 80px;
+      align-items: center;
+      /* padding: 25px; */
+      position: relative;
+      overflow: hidden;
+      margin-left: -40px;
+      /* padding: 100px; */
+   }  
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+ #projects {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects h3 {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+  font-size: 32px;
+}
+
+#projects .box {
+  width: 600px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: -180px;
+  background: var(--white);
+  box-shadow: 0 15px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  /* text-align: center; */
+}
+  
+li.active {
+	text-decoration: underline;     
+    font-weight: bold;
+}
+
+
+#projects .img img {
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    margin-left: 240px;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  
+  #projects .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #projects .title a {
+    color: #111;
+  }
+  
+  #projects .title a:hover{
+    color: var(--primary-medium);
+  }
+  
+  #projects p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  
+
+  div.containerr {
+    text-align: center;
+    padding-top: 12%;
+}
+
+  body{
+	/* line-height: 200px;
+	height: 200px; */
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #f4f2ef;;
+	font-size: 15px;
+	line-height: 0.8;
+	margin: 0;
+	padding: 0;
+  }
+  
+  div.aboutitem {
+    padding: 7%;
+    line-height: 25px;
+  }
+
+  div.footer {
+      text-align: center;
+      font-size: 10px;
+      padding: 6%;
+  }
+
+  i.material-icons {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .overview{
+	background-attachment: fixed; 
+	background-position: center;  
+	background-repeat: no-repeat; 
+	background-size: cover;       
+	color: black;
+	height: 400px;                
+  } 
+  
+  
+  .overview p{
+	color: black;
+	font-size: 28px;
+	padding: 0 100px;
+	text-align: center;
+  } 
+  
+  /* h1{
+	line-height: 170px;
+	height: 280px;
+	text-justify: center;
+	text-align: center;
+	font-size: 25px;
+	/* line-height: 5; */
+  /* } */ 
+  
+  /* h2{
+	font-size: 18px;
+	line-height: 1.15;
+  }
+   */
+ 
+  
+  
+  .skip a{
+	background: black;
+	left: 0;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+  }
+  
+/*   
+  nav{
+	background-color: #ddd; 
+	padding: 25px 0; 
+	text-align: left;
+  } */
+  
+  
+ 
+  /* footer{
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+	text-align: center;
+  } */
+  
+  
+  
+  
+  @media screen and (prefers-reduced-motion: reduce){
+	html{
+		scroll-behavior: auto; /* Removes scroll animation */
+	}
+  
+	.skip a{
+	  -webkit-transition: none; /* sets to default setting */
+	  transition: none;        /* sets to default setting */
+	 }
+  
+	/*Turn off parallax*/
+	header{
+	  background-attachment: initial;
+	}
+  }
+  
+  
+  
+  /*Your Code Here*/
+  /* PLEASE DO NOT REMOVE MY COMMENTS.  THEY HELP US HELP YOU DEBUG. */
+  
+  /* Step 1: Write selector/rule property to add an underline when
+  links in the navigation are in the hover or focus state.*/
+  nav a:focus {
+	text-decoration: underline;     
+  }
+  
+  nav a:hover {
+	text-decoration: underline;     
+  }
+  
+  
+  /* nav a:focus{
+	text-decoration:underline;
+  }
+  nav a:hover{
+	text-decoration:underline;
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
+  /* .skip a{
+	top: -40px;
+	position:absolute;
+  } */
+  
+  .skip a {
+	top : -40px;
+	position: absolute;
+  }
+  
+  
+  
+  
+  /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
+  /* .skip a:focus{
+	position:absolute;
+	top: 20px;
+  } */
+  
+  
+  .skip a:focus{
+	top : 20px;
+	position: absolute;
+  }
+  
+  
+  /* Step 3: Write selector/rule property to style all elements when in focus*/
+  /* *:focus {
+	border: 2px solid black;
+  } */
+  
+  *:focus {
+	border: 2px solid black;
+  }
+  
+  /* Step 4: Write selector/rule property to style the container */
+  /* .container {
+	grid-row-gap: 15px;
+	grid-template-columns: 1fr 5fr 1fr;
+	display: grid;
+  } */
+  
+  *:container {
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-gap: 15px 0px;
+	display: grid;
+  }
+  
+  /* Step 5: Write selector/rule property to add the background image to the 
+  first div in the grid  and place it in the grid. */
+  /* .container div:first-child {
+	background-position: center;  
+	background-repeat: no-repeat;
+	height: 400px;     
+	background-size:cover;   
+	background-attachment:fixed;   
+	background-image: url('../images/header.jpg');   
+	color: white;
+	grid-column: 1 / -1;            
+  } */
+  
+  .container div:first-child {
+	grid-template-columns: 1 / -1;
+	background-image: url("header.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*  height not necessary
+		color not necessary */
+  
+  }
+  
+  
+  
+  
+   @media all and (min-width: 800px){
+  
+	nav {
+	  padding: 30px 0 30px 0;
+	  text-align: right;
+	  align-self: center;
+	}
+  
+	.container {
+	  grid-template-columns: 50px auto 500px auto 50px;
+	  display: grid;
+	}
+  
+	.about, .method-image, .clients, .contact-image{
+	  grid-column: 3 / span 2;
+	}
+  
+	.method, .clients-image, .contact, .about-image{
+	  grid-column: 2 / span 2;
+	}
+  
+	.text-block  {
+	overflow: auto;
+	max-height: 250px;
+  }  
+
+  
+
+  @media (min-width: 800px) {
+	 nav {
+	   padding: 30px 0px 30px 0px;
+	   text-align: right;
+	   align-self: center;
+	 }
+  
+	 .container {
+	   grid-template-columns: 50px, auto, 500px, auto, 50px;
+	 }
+  
+	 .about, .clients, .method-image, .contact-image {
+	   grid-column: 3 / span 2;
+	 }
+  
+	 .method, .contact, .about-image, .clients-image {
+	   grid-column: 2 / span 2;
+	 }
+  
+	 .text-block {
+	   max-height: 250;
+	   overflow: auto;
+	 }
+  }
+}
