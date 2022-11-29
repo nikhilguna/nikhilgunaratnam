@@ -47,7 +47,7 @@ html{
 	line-height: 170px;
 	height: 280px;
 	text-justify: center;
-	text-align: center;
+	/* text-align: center; */
 	font-size: 25px;
 	/* line-height: 5; */
   }
@@ -148,9 +148,10 @@ html{
   } */
 
   .bigTitle {
-	text-align: left;
+	text-align: center;
 	color: black;
 	font-family: 'Monoco', 'Courier New', Courier, monospace;
+	/* background-color: blueviolet; */
   }
 
   
